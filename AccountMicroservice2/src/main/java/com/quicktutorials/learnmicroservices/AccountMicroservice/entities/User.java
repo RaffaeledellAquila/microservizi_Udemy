@@ -3,17 +3,21 @@ package com.quicktutorials.learnmicroservices.AccountMicroservice.entities;
 
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+
+
 import jakarta.validation.constraints.NotBlank;
+
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
 //2 2 2 2 2  2 2 2 22  2 2 2
 @AllArgsConstructor @NoArgsConstructor   //Lombok annotations
 @Entity                                  //JPA defines an Entity

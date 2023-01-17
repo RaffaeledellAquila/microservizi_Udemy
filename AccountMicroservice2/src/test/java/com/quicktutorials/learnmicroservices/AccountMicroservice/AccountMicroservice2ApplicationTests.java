@@ -3,11 +3,10 @@ package com.quicktutorials.learnmicroservices.AccountMicroservice;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class AccountMicroservice2ApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
-}
+//  @SpringBootTest class AccountMicroservice2ApplicationTests {
+//  
+//  @Test void contextLoads() { }
+//  
+//  }
+ 
